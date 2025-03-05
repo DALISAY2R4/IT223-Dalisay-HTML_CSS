@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocMed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- Logo on the Left -->
+        <a href="#" class="logo">SocMed</a>
+    
+        <!-- Icons on the Left -->
+        <nav class="nav-left">
+            <a href="#"><i class="fas fa-globe"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <div class="notification-icon">
+                <a href="#"><i class="fas fa-bell"></i><span class="notification-badge">3</span></a>
+                <section class="notifications">
+                    <h3>Notifications</h3>
+                    <article class="notification-item">
+                        <i class="fas fa-user-plus"></i>
+                        <p>Vhon sent you a friend request</p>
+                    </article>
+                    <article class="notification-item">
+                        <i class="fas fa-comment"></i>
+                        <p>Cyp commented on your post</p>
+                    </article>
+                    <article class="notification-item">
+                        <i class="fas fa-heart"></i>
+                        <p>Chin hearted your post</p>
+                    </article>
+                </section>
+            </div>
+        </nav>
+    
+        <!-- Profile Icon on the Right -->
+        <div class="nav-right">
+            <img src="images/dalsprof.jpg" alt="Profile" class="profile">
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Left Sidebar -->
+        <nav class="left-sidebar">
+            <section class="profile-card">
+                <img src="images/dalsprof.jpg" alt="John Dalisay's Profile Picture" class="profile-pic">
+                <h2>John Dalisay</h2>
+                <p><i class="fas fa-book"></i> IT Student</p>
+                <p><i class="fas fa-school"></i> University of Science and Technology of Southern Philippines</p>
+                <p><i class="fas fa-birthday-cake"></i> June 2004</p>
+            </section>
+            <!-- Sidebar Menu -->
+            <nav class="sidebar-menu">
+                <a href="#"><i class="fas fa-users"></i> My Groups</a>
+                <a href="#"><i class="fas fa-calendar-alt"></i> My Events</a>
+                <a href="#"><i class="fas fa-camera"></i> My Photos</a>
+            </nav>
+
+            <section class="hobbies">
+                <h3>Interests</h3>
+                <nav class="tags">
+                    <span>Games</span>
+                    <span>Reading Manhua</span>
+                    <span>Fashion</span>
+                    <span>Food</span>
+                    <span>Photos</span>
+                </nav>
+            </section>
+            <section class="notification">
+                <span class="close-btn">&times;</span>
+                <h3>Hey!</h3>
+                <p>Someone is looking at your profile. Find out who.</p>
+            </section>
+        </nav>
+
+        <!-- Central Content -->
+        <section class="content">
+            <!-- Status and Post Section -->
+            <nav class="status-post">
+                <section class="status">
+                    <img src="images/dalsprof.jpg" alt="John Dalisay's Profile Picture" class="status-profile-pic">
+                    <span>John Dalisay</span>
+                </section>
+                <section class="post-input">
+                    <textarea placeholder="Post Something"></textarea>
+                    <button class="post-button">Post</button>
+                    <button class="post-button">Live</button>
+                    <button class="post-button">Add Photo</button>
+                </section>
+            </nav>
+            <!-- Posts -->
+            <section class="post-container">
+                <!-- Post 1 -->
+                <article class="post">
+                    <section class="user-info">
+                        <img src="images/cypprof.jpg" alt="Cyp's Profile">
+                        <span class="username cyp">Cyp</span>
+                    </section>
+                    <p class="text">My Love</p>
+                    <img class="post-image" src="images/cyp.jpg" alt="Post Image">
+                    <nav class="interaction">
+                        <button class="icon-button"><i class="far fa-thumbs-up"></i> Like</button>
+                        <button class="icon-button"><i class="far fa-comment"></i> Comment</button>
+                    </nav>
+                </article>
+                <!-- Post 2 -->
+                <article class="post">
+                    <section class="user-info">
+                        <img src="images/shanprof.jpg" alt="Shan's Profile">
+                        <span class="username shan">Shan</span>
+                    </section>
+                    <p class="text">Oh my ghadd!</p>
+                    <img class="post-image" src="images/shanpost.jpg" alt="Post Image">
+                    <nav class="interaction">
+                        <button class="icon-button"><i class="far fa-thumbs-up"></i> Like</button>
+                        <button class="icon-button"><i class="far fa-comment"></i> Comment</button>
+                    </nav>
+                </article>
+            </section>
+        </section>
+
+        <!-- Right Sidebar -->
+        <nav class="right-sidebar">
+            <section class="card event">
+                <h3>Upcoming Events:</h3>
+                <img src="images/shanpost.jpg" alt="Event Image">
+                <strong>Chin's B-day</strong>
+                <p>March 14</p>
+                <button class="button">More</button>
+            </section>
+            <section class="card friend-request">
+                <h3>Friend Request</h3>
+                <img src="images/vhonprof.jpg" alt="Vhon Salilo's Avatar" class="friend-avatar">
+                <p>Vhon Salilo</p>
+                <nav class="actions">
+                    <button class="accept">Accept</button>
+                    <button class="decline">Decline</button>
+                </nav>
+            </section>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <nav class="footer-bottom">
+            <p>&copy; SocMed 2025. All rights reserved.</p>
+        </nav>
+    </footer>
+</body>
+</html>
