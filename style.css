@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -9,12 +9,12 @@ body {
     height: 100vh;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     align-items: center;
     background-color: #134b38;
-    justify-content: space-between; /* Space between logo, icons, and profile */
+    justify-content: space-between; 
     padding: 10px;
     width: 100%;
     position: fixed;
@@ -23,7 +23,7 @@ body {
     z-index: 1000;
 }
 
-/* Logo */
+
 .navbar .logo {
     color: #FFEAD2;
     font-size: 18px;
@@ -31,11 +31,11 @@ body {
     padding: 10px;
 }
 
-/* Icons on the Left */
+
 .nav-left {
     display: flex;
     align-items: center;
-    gap: 15px; /* Space between icons */
+    gap: 15px; 
 }
 
 .navbar a {
@@ -48,7 +48,6 @@ body {
     font-size: 18px;
 }
 
-/* Notification Badge */
 .navbar .notification-badge {
     position: absolute;
     top: -5px;
@@ -64,9 +63,9 @@ body {
     align-items: center;
 }
 
-/* Profile Icon on the Right */
+
 .nav-right {
-    margin-left: auto; /* Push profile icon to the right */
+    margin-left: auto; 
 }
 
 .navbar .profile {
@@ -83,7 +82,7 @@ body {
     object-fit: cover;
 }
 
-/* Notification Dropdown */
+
 .notification-icon {
     position: relative;
 }
@@ -154,7 +153,7 @@ body {
     border-radius: 5px;
 }
 
-/* Main Content */
+
 .main-content {
     display: flex;
     flex: 1;
@@ -162,7 +161,7 @@ body {
     overflow: visible;
 }
 
-/* Left Sidebar */
+
 .left-sidebar {
     width: 250px;
     padding: 10px;
@@ -205,7 +204,7 @@ body {
     color: #116A7B;
 }
 
-/* Sidebar Menu */
+
 .sidebar-menu {
     background-color: white;
     padding: 15px;
@@ -222,7 +221,7 @@ body {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    transition: all 0.3s ease; 
     cursor: pointer;
 }
 
@@ -254,7 +253,7 @@ body {
     border-radius: 20px;
     font-size: 14px;
     color: #333;
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 
@@ -407,9 +406,9 @@ x
 /* Interaction Section */
 .interaction {
     display: flex;
-    justify-content: flex-start; /* Align buttons to the left */
-    gap: 10px; /* Space between buttons */
-    margin-top: 10px; /* Space above the buttons */
+    justify-content: flex-start; 
+    gap: 10px; 
+    margin-top: 10px; 
 }
 
 .interaction .icon-button {
@@ -422,8 +421,8 @@ x
     font-size: 14px;
     display: flex;
     align-items: center;
-    gap: 5px; /* Space between icon and text */
-    transition: all 0.3s ease; /* Smooth hover effect */
+    gap: 5px; 
+    transition: all 0.3s ease; 
 }
 
 .interaction .icon-button:hover {
@@ -434,9 +433,9 @@ x
 }
 
 .interaction .icon-button i {
-    font-size: 16px; /* Icon size */
+    font-size: 16px;
 }
-/* Right Sidebar */
+
 .right-sidebar {
     width: 300px;
     padding: 10px;
@@ -542,7 +541,7 @@ x
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 .footer {
     background-color: #134b38;
     color: #FFEAD2;
@@ -560,7 +559,7 @@ x
     font-size: 14px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 767px) {
     .main-content {
         flex-direction: column;
